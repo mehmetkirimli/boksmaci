@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        Fighter F1 = new Fighter("MEMO", 12, 100, 85,10);
+        Fighter F2 = new Fighter("RAMBO", 14, 95, 110,48);
+
+        Match round1 = new Match(F1,F2,85,110);
+        round1.run();
+        round1.isWin();
+
+
+
+
+    }
+}
